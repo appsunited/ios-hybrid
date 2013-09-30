@@ -43,7 +43,9 @@ git clone git@github.com:appsunited/ios-hybrid.git
 
 
 ### JS to Objective-C ###
-```[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];```
+```
+[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];
+```
 
 
 ### Performance ###
