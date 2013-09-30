@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6BB8CB217EDFD9100B9A757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BB8CB117EDFD9100B9A757 /* Foundation.framework */; };
+		D6BB8CB417EDFD9100B9A757 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BB8CB317EDFD9100B9A757 /* CoreGraphics.framework */; };
+		D6BB8CB617EDFD9100B9A757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BB8CB517EDFD9100B9A757 /* UIKit.framework */; };
+		D6BB8CBC17EDFD9100B9A757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6BB8CBA17EDFD9100B9A757 /* InfoPlist.strings */; };
+		D6BB8CBE17EDFD9100B9A757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB8CBD17EDFD9100B9A757 /* main.m */; };
+		D6BB8CC217EDFD9100B9A757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB8CC117EDFD9100B9A757 /* AppDelegate.m */; };
+		D6BB8CC517EDFD9100B9A757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6BB8CC317EDFD9100B9A757 /* Main.storyboard */; };
+		D6BB8CCA17EDFD9100B9A757 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6BB8CC917EDFD9100B9A757 /* Images.xcassets */; };
+		D6BB8CD117EDFD9200B9A757 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BB8CD017EDFD9200B9A757 /* XCTest.framework */; };
+		D6BB8CD217EDFD9200B9A757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BB8CB117EDFD9100B9A757 /* Foundation.framework */; };
+		D6BB8CD317EDFD9200B9A757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BB8CB517EDFD9100B9A757 /* UIKit.framework */; };
+		D6BB8CDB17EDFD9200B9A757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6BB8CD917EDFD9200B9A757 /* InfoPlist.strings */; };
+		D6BB8CDD17EDFD9200B9A757 /* NewsMate_HybridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB8CDC17EDFD9200B9A757 /* NewsMate_HybridTests.m */; };
+		D6BB8CE817EDFF7B00B9A757 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB8CE717EDFF7B00B9A757 /* WebViewController.m */; };
+		D6BB8D3317EF4D2400B9A757 /* WebViewArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB8D3217EF4D2400B9A757 /* WebViewArticle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6BB8CD417EDFD9200B9A757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6BB8CA617EDFD9100B9A757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6BB8CAD17EDFD9100B9A757;
+			remoteInfo = "NewsMate Hybrid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6BB8CAE17EDFD9100B9A757 /* NewsMate Hybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsMate Hybrid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BB8CB117EDFD9100B9A757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6BB8CB317EDFD9100B9A757 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6BB8CB517EDFD9100B9A757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6BB8CB917EDFD9100B9A757 /* NewsMate Hybrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsMate Hybrid-Info.plist"; sourceTree = "<group>"; };
+		D6BB8CBB17EDFD9100B9A757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6BB8CBD17EDFD9100B9A757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6BB8CBF17EDFD9100B9A757 /* NewsMate Hybrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsMate Hybrid-Prefix.pch"; sourceTree = "<group>"; };
+		D6BB8CC017EDFD9100B9A757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6BB8CC117EDFD9100B9A757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6BB8CC417EDFD9100B9A757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6BB8CC917EDFD9100B9A757 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6BB8CCF17EDFD9200B9A757 /* NewsMate HybridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewsMate HybridTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BB8CD017EDFD9200B9A757 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6BB8CD817EDFD9200B9A757 /* NewsMate HybridTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsMate HybridTests-Info.plist"; sourceTree = "<group>"; };
+		D6BB8CDA17EDFD9200B9A757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6BB8CDC17EDFD9200B9A757 /* NewsMate_HybridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsMate_HybridTests.m; sourceTree = "<group>"; };
+		D6BB8CE617EDFF7B00B9A757 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = WebViewController/WebViewController.h; sourceTree = "<group>"; };
+		D6BB8CE717EDFF7B00B9A757 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = WebViewController/WebViewController.m; sourceTree = "<group>"; };
+		D6BB8D3117EF4D2400B9A757 /* WebViewArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewArticle.h; sourceTree = "<group>"; };
+		D6BB8D3217EF4D2400B9A757 /* WebViewArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewArticle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6BB8CAB17EDFD9100B9A757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BB8CB417EDFD9100B9A757 /* CoreGraphics.framework in Frameworks */,
+				D6BB8CB617EDFD9100B9A757 /* UIKit.framework in Frameworks */,
+				D6BB8CB217EDFD9100B9A757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BB8CCC17EDFD9200B9A757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BB8CD117EDFD9200B9A757 /* XCTest.framework in Frameworks */,
+				D6BB8CD317EDFD9200B9A757 /* UIKit.framework in Frameworks */,
+				D6BB8CD217EDFD9200B9A757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6BB8CA517EDFD9100B9A757 = {
+			isa = PBXGroup;
+			children = (
+				D6BB8CB717EDFD9100B9A757 /* NewsMate Hybrid */,
+				D6BB8CD617EDFD9200B9A757 /* NewsMate HybridTests */,
+				D6BB8CB017EDFD9100B9A757 /* Frameworks */,
+				D6BB8CAF17EDFD9100B9A757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6BB8CAF17EDFD9100B9A757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6BB8CAE17EDFD9100B9A757 /* NewsMate Hybrid.app */,
+				D6BB8CCF17EDFD9200B9A757 /* NewsMate HybridTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6BB8CB017EDFD9100B9A757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6BB8CB117EDFD9100B9A757 /* Foundation.framework */,
+				D6BB8CB317EDFD9100B9A757 /* CoreGraphics.framework */,
+				D6BB8CB517EDFD9100B9A757 /* UIKit.framework */,
+				D6BB8CD017EDFD9200B9A757 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6BB8CB717EDFD9100B9A757 /* NewsMate Hybrid */ = {
+			isa = PBXGroup;
+			children = (
+				D6BB8CC017EDFD9100B9A757 /* AppDelegate.h */,
+				D6BB8CC117EDFD9100B9A757 /* AppDelegate.m */,
+				D6BB8CE617EDFF7B00B9A757 /* WebViewController.h */,
+				D6BB8CE717EDFF7B00B9A757 /* WebViewController.m */,
+				D6BB8D3117EF4D2400B9A757 /* WebViewArticle.h */,
+				D6BB8D3217EF4D2400B9A757 /* WebViewArticle.m */,
+				D6BB8CC317EDFD9100B9A757 /* Main.storyboard */,
+				D6BB8CC917EDFD9100B9A757 /* Images.xcassets */,
+				D6BB8CB817EDFD9100B9A757 /* Supporting Files */,
+			);
+			path = "NewsMate Hybrid";
+			sourceTree = "<group>";
+		};
+		D6BB8CB817EDFD9100B9A757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6BB8CB917EDFD9100B9A757 /* NewsMate Hybrid-Info.plist */,
+				D6BB8CBA17EDFD9100B9A757 /* InfoPlist.strings */,
+				D6BB8CBD17EDFD9100B9A757 /* main.m */,
+				D6BB8CBF17EDFD9100B9A757 /* NewsMate Hybrid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6BB8CD617EDFD9200B9A757 /* NewsMate HybridTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6BB8CDC17EDFD9200B9A757 /* NewsMate_HybridTests.m */,
+				D6BB8CD717EDFD9200B9A757 /* Supporting Files */,
+			);
+			path = "NewsMate HybridTests";
+			sourceTree = "<group>";
+		};
+		D6BB8CD717EDFD9200B9A757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6BB8CD817EDFD9200B9A757 /* NewsMate HybridTests-Info.plist */,
+				D6BB8CD917EDFD9200B9A757 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6BB8CAD17EDFD9100B9A757 /* NewsMate Hybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BB8CE017EDFD9200B9A757 /* Build configuration list for PBXNativeTarget "NewsMate Hybrid" */;
+			buildPhases = (
+				D6BB8CAA17EDFD9100B9A757 /* Sources */,
+				D6BB8CAB17EDFD9100B9A757 /* Frameworks */,
+				D6BB8CAC17EDFD9100B9A757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewsMate Hybrid";
+			productName = "NewsMate Hybrid";
+			productReference = D6BB8CAE17EDFD9100B9A757 /* NewsMate Hybrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6BB8CCE17EDFD9200B9A757 /* NewsMate HybridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BB8CE317EDFD9200B9A757 /* Build configuration list for PBXNativeTarget "NewsMate HybridTests" */;
+			buildPhases = (
+				D6BB8CCB17EDFD9200B9A757 /* Sources */,
+				D6BB8CCC17EDFD9200B9A757 /* Frameworks */,
+				D6BB8CCD17EDFD9200B9A757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6BB8CD517EDFD9200B9A757 /* PBXTargetDependency */,
+			);
+			name = "NewsMate HybridTests";
+			productName = "NewsMate HybridTests";
+			productReference = D6BB8CCF17EDFD9200B9A757 /* NewsMate HybridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6BB8CA617EDFD9100B9A757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = appsunited;
+				TargetAttributes = {
+					D6BB8CCE17EDFD9200B9A757 = {
+						TestTargetID = D6BB8CAD17EDFD9100B9A757;
+					};
+				};
+			};
+			buildConfigurationList = D6BB8CA917EDFD9100B9A757 /* Build configuration list for PBXProject "NewsMate Hybrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6BB8CA517EDFD9100B9A757;
+			productRefGroup = D6BB8CAF17EDFD9100B9A757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6BB8CAD17EDFD9100B9A757 /* NewsMate Hybrid */,
+				D6BB8CCE17EDFD9200B9A757 /* NewsMate HybridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6BB8CAC17EDFD9100B9A757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BB8CCA17EDFD9100B9A757 /* Images.xcassets in Resources */,
+				D6BB8CBC17EDFD9100B9A757 /* InfoPlist.strings in Resources */,
+				D6BB8CC517EDFD9100B9A757 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BB8CCD17EDFD9200B9A757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BB8CDB17EDFD9200B9A757 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6BB8CAA17EDFD9100B9A757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BB8CC217EDFD9100B9A757 /* AppDelegate.m in Sources */,
+				D6BB8CBE17EDFD9100B9A757 /* main.m in Sources */,
+				D6BB8CE817EDFF7B00B9A757 /* WebViewController.m in Sources */,
+				D6BB8D3317EF4D2400B9A757 /* WebViewArticle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BB8CCB17EDFD9200B9A757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BB8CDD17EDFD9200B9A757 /* NewsMate_HybridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6BB8CD517EDFD9200B9A757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6BB8CAD17EDFD9100B9A757 /* NewsMate Hybrid */;
+			targetProxy = D6BB8CD417EDFD9200B9A757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6BB8CBA17EDFD9100B9A757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6BB8CBB17EDFD9100B9A757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6BB8CC317EDFD9100B9A757 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6BB8CC417EDFD9100B9A757 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6BB8CD917EDFD9200B9A757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6BB8CDA17EDFD9200B9A757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6BB8CDE17EDFD9200B9A757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6BB8CDF17EDFD9200B9A757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6BB8CE117EDFD9200B9A757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsMate Hybrid/NewsMate Hybrid-Prefix.pch";
+				INFOPLIST_FILE = "NewsMate Hybrid/NewsMate Hybrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6BB8CE217EDFD9200B9A757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsMate Hybrid/NewsMate Hybrid-Prefix.pch";
+				INFOPLIST_FILE = "NewsMate Hybrid/NewsMate Hybrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6BB8CE417EDFD9200B9A757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewsMate Hybrid.app/NewsMate Hybrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsMate Hybrid/NewsMate Hybrid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NewsMate HybridTests/NewsMate HybridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6BB8CE517EDFD9200B9A757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewsMate Hybrid.app/NewsMate Hybrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsMate Hybrid/NewsMate Hybrid-Prefix.pch";
+				INFOPLIST_FILE = "NewsMate HybridTests/NewsMate HybridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6BB8CA917EDFD9100B9A757 /* Build configuration list for PBXProject "NewsMate Hybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BB8CDE17EDFD9200B9A757 /* Debug */,
+				D6BB8CDF17EDFD9200B9A757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BB8CE017EDFD9200B9A757 /* Build configuration list for PBXNativeTarget "NewsMate Hybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BB8CE117EDFD9200B9A757 /* Debug */,
+				D6BB8CE217EDFD9200B9A757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BB8CE317EDFD9200B9A757 /* Build configuration list for PBXNativeTarget "NewsMate HybridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BB8CE417EDFD9200B9A757 /* Debug */,
+				D6BB8CE517EDFD9200B9A757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6BB8CA617EDFD9100B9A757 /* Project object */;
+}

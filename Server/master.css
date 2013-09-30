@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Clarendon-Bd';
+    src: url('webfonts/clarendon-bd.eot');
+    src: url('webfonts/clarendon-bd.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/clarendon-bd.woff') format('woff'),
+         url('webfonts/clarendon-bd.ttf') format('truetype'),
+         url('webfonts/clarendon-bd.svg#ClarendonBT-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clarendon-ItBk';
+    src: url('webfonts/clarendon-itbk.eot');
+    src: url('webfonts/clarendon-itbk?#iefix') format('embedded-opentype'),
+         url('webfonts/clarendon-itbk.woff') format('woff'),
+         url('webfonts/Clarendon-itbk.ttf') format('truetype'),
+         url('webfonts/clarendon-itbk.svg#ClarendonTextPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clarendon-ItBd';
+    src: url('webfonts/clarendon-itbd.eot');
+    src: url('webfonts/clarendon-itbd?#iefix') format('embedded-opentype'),
+         url('webfonts/clarendon-itbd.woff') format('woff'),
+         url('webfonts/clarendon-itbd.ttf') format('truetype'),
+         url('webfonts/clarendon-itbd.svg#ClarendonTextPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, div, section, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #777;
+    background-color: white;
+    font-family: 'Clarendon-Bd', serif;
+    font-size:13px;
+    margin-top: 20px;
+}
+
+p {
+    color: #999;
+    background-color: white;
+    font-family: 'Clarendon-ItBk', serif;
+    font-size: 13px;
+    margin: 8px 0;
+}
+
+a {
+    color: #777;
+    display: block;
+    font-family: 'Clarendon-ItBd', serif;
+    font-size: 12px;
+    text-align: right;
+    text-decoration: none;
+}
+
+#news {
+    padding-top: 8px;
+    width: 320px;
+}
+
+article {
+    cursor: pointer;
+    background-image: url('images/bg_nav_papercut_t.png'), url('images/bg_nav_papercut_b.png');
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    padding: 15px 13px 35px;
+}
+
+.snippet {
+    background: white;
+    padding: 0 14px;
+}
+
+@media all and (min-width: 350px) {
+    #news {
+        /* backround-atachement is not supported by Mobile Safari */
+        background-image: url('images/bg_wood.png');
+        background-repeat: repeat-y;
+        background-attachment: fixed;
+    }
+}
