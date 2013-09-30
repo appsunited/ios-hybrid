@@ -21,18 +21,18 @@ git clone git@github.com:appsunited/ios-hybrid.git
 
 
 ### Hybrid Apps ###
-* + Cross platform code
-* + Rapid development
-* + Instant updates
-* - Bad Performance - 3x slower, JS Engine Nitro isn't supported in UIWebView
-* - Presentation and layout issues
-* - JS Execution time is limited (10s on iOS)
+* Cross platform code
+* Rapid development
+* Instant updates
+* Bad Performance - 3x slower, JS Engine Nitro isn't supported in UIWebView
+* Presentation and layout issues
+* JS Execution time is limited (10s on iOS)
 
 
 ### Native ###
-* + High Performance - best for hardware intensive operations, iOS JavaScriptCore
-* + Native user experience - effects and animations
-* + Mobile Safari has better caching and asynchronous multithreading
+* High Performance - best for hardware intensive operations, iOS JavaScriptCore
+* Native user experience - effects and animations
+* Mobile Safari has better caching and asynchronous multithreading
 
 
 ### Performance ###
@@ -57,7 +57,7 @@ They think that JavaScript is facing a performance wall:
 
 
 ### JS > Objective-C ###
-[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];
+`[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];
 
 
 ### Read more ###
