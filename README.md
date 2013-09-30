@@ -50,6 +50,7 @@ git clone git@github.com:appsunited/ios-hybrid.git
 * Native Code is ~3x faster than JS (ranges in 2x-9x)
 * MBP vs. iPhone is a factor of 10.
 * The performance between Chrome 8 and Chrome 29 is a flatline. If the web feels faster, that is probably because you’re running a faster computer, but it has nothing to do with improvements to Chrome.
+
 ![iOS Safari Browser](https://raw.github.com/appsunited/ios-hybrid/master/Server/images/ios_safari_browser.png "iOS Safari Browser")
 ![UIWebView Browser](https://raw.github.com/appsunited/ios-hybrid/master/Server/images/ios_uiwebview_browser.png "UIWebView Browser")
 
