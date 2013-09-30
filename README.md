@@ -42,7 +42,7 @@ git clone git@github.com:appsunited/ios-hybrid.git
 * Gaming - Spaceport, ImpactJS, CocoonJS
 
 
-### JS > Objective-C ###
+### JS - Objective-C ###
 `[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];`
 
 
