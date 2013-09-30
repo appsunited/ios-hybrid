@@ -1,7 +1,7 @@
 ## Hybrid iOS App
 
 This is a sample how to connect an iOS app and server-side web pages. For this sample a news aggregator is built. To keep it simple the backend is using Yahoo Pipes, which aggregates different news web pages. It's requesting RSS feeds and also scraping HTML by some online news returning as JSON.
-![NewsMate Hybrid App](https://github.com/appsunited/ios-hybrid/blob/master/Server/images/newsmate-screenshot.png "NewsMate Hybrid App")
+![NewsMate Hybrid App](https://raw.github.com/appsunited/ios-hybrid/master/Server/images/newsmate-screenshot.png "NewsMate Hybrid App")
 
 
 ### Clone Repo
@@ -36,16 +36,22 @@ git clone git@github.com:appsunited/ios-hybrid.git
 * Mobile Safari has better caching and asynchronous multithreading
 
 
-### Performance ###
-* Native Code is ~3x faster than JS (ranges in 2x-9x)
-* MBP vs. iPhone is a factor of 10.
-* The performance between Chrome 8 and Chrome 29 is a flatline. If the web feels faster, that is probably because you’re running a faster computer, but it has nothing to do with improvements to Chrome.
-
-
 ### Frameworks ###
 * UIWebView Bridge - PhoneGap, trigger.io
 * Custom JavaScriptCore - Appcelerator Titanium
 * Gaming - Spaceport, ImpactJS, CocoonJS
+
+
+### JS > Objective-C ###
+`[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];`
+
+
+### Performance ###
+* Native Code is ~3x faster than JS (ranges in 2x-9x)
+* MBP vs. iPhone is a factor of 10.
+* The performance between Chrome 8 and Chrome 29 is a flatline. If the web feels faster, that is probably because you’re running a faster computer, but it has nothing to do with improvements to Chrome.
+![iOS Safari Browser](https://raw.github.com/appsunited/ios-hybrid/master/Server/images/ios_safari_browser.png "iOS Safari Browser")
+![UIWebView Browser](https://raw.github.com/appsunited/ios-hybrid/master/Server/images/ios_uiwebview_browser.png "UIWebView Browser")
 
 
 ### Apple Documentation ###
@@ -55,10 +61,6 @@ git clone git@github.com:appsunited/ios-hybrid.git
 ### Google about JS ###
 They think that JavaScript is facing a performance wall:
 "Complex web apps–the kind that Google specializes in–are struggling against the platform and working with a language that cannot be tooled and has inherent performance problems."
-
-
-### JS > Objective-C ###
-`[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];`
 
 
 ### Read more ###
