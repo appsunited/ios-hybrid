@@ -1,6 +1,6 @@
 ## Hybrid iOS App
 
-This is a sample how to connect an iOS app and server-side web pages. For this sample a news aggregator is built. To keep it simple the backend is using Yahoo Pipes, which aggregates different news web pages. It's requesting RSS feeds and also scraping HTML by some online news returning as JSON.
+This is a sample how to connect an iOS app and server-side web pages. For this sample a news aggregator is built. To keep it simple the backend is using Yahoo Pipes, which aggregates different news web pages. It's requesting RSS feeds and also scraping HTML by some online news returning JSON.
 ![NewsMate Hybrid App](https://raw.github.com/appsunited/ios-hybrid/master/Server/images/newsmate-screenshot.png "NewsMate Hybrid App")
 
 
@@ -17,7 +17,7 @@ git clone git@github.com:appsunited/ios-hybrid.git
 
 ### Next Steps ###
 1. Add another UIViewController in front of loaded news snippets. A list or table to select different news sources. This also should be an UIWebView requesting a list with topics and/or online news papers.
-2. Refactor the `- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest` method, also create required classes. Review architecture issuees.
+2. Refactor the `- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest` method, also create required classes. Review architecture issues.
 3. Implement the Observer design pattern and find an approach to listen, observe or notify - also called Broadcaster/Listener, Publish/Subscribe or Notifications.
 
 
@@ -45,7 +45,7 @@ git clone git@github.com:appsunited/ios-hybrid.git
 ### JS to Objective-C ###
 ```
 [webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];
-```
+``
 
 
 ### Performance ###
