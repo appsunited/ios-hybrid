@@ -1,6 +1,7 @@
 ## Hybrid iOS App
 
 This is a sample how to connect an iOS app and server-side web pages. For this sample a news aggregator is built. To keep it simple the backend is using Yahoo Pipes, which aggregates different news web pages. It's requesting RSS feeds and also scraping HTML by some online news returning as JSON.
+![NewsMate Hybrid App](https://github.com/appsunited/ios-hybrid/blob/master/Server/images/newsmate-screenshot.png "NewsMate Hybrid App")
 
 
 ### Clone Repo
@@ -57,7 +58,7 @@ They think that JavaScript is facing a performance wall:
 
 
 ### JS > Objective-C ###
-`[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];
+`[webViewObject stringByEvaluatingJavaScriptFromString:@"myJavascriptFunction()"];`
 
 
 ### Read more ###
