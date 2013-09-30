@@ -16,35 +16,35 @@ git clone git@github.com:appsunited/ios-hybrid.git
 
 ### Next Steps ###
 1. Add another UIViewController in front of loaded news snippets. A list or table to select different news sources. This also should be an UIWebView requesting a list with topics and/or online news papers.
-2. Refactor the `- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest` method, also create classes if needed.
+2. Refactor the `- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest` method, also create required classes. Review architecture issuees.
 3. Implement the Observer design pattern and find an approach to listen, observe or notify - also called Broadcaster/Listener, Publish/Subscribe or Notifications.
 
 
 ### Hybrid Apps ###
-+ Cross platform code
-+ Rapid development
-+ Instant update
-- Bad Performance - 3x slower, JS Engine Nitro isn't supported in UIWebView
-- Presentation and layout issues
-- JS Execution time is limited (10s on iOS)
+* + Cross platform code
+* + Rapid development
+* + Instant updates
+* - Bad Performance - 3x slower, JS Engine Nitro isn't supported in UIWebView
+* - Presentation and layout issues
+* - JS Execution time is limited (10s on iOS)
 
 
 ### Native ###
-+ High Performance - best for hardware intensive operations, iOS JavaScriptCore
-+ Native user experience - effects and animations
-+ Mobile Safari has better caching and asynchronous multithreading
+* + High Performance - best for hardware intensive operations, iOS JavaScriptCore
+* + Native user experience - effects and animations
+* + Mobile Safari has better caching and asynchronous multithreading
 
 
 ### Performance ###
-- Native Code is ~3x faster than JS (ranges in 2x-9x)
-- MBP vs. iPhone is a factor of 10.
-- The performance between Chrome 8 and Chrome 29 is a flatline. If the web feels faster, that is probably because you’re running a faster computer, but it has nothing to do with improvements to Chrome.
+* Native Code is ~3x faster than JS (ranges in 2x-9x)
+* MBP vs. iPhone is a factor of 10.
+* The performance between Chrome 8 and Chrome 29 is a flatline. If the web feels faster, that is probably because you’re running a faster computer, but it has nothing to do with improvements to Chrome.
 
 
 ### Frameworks ###
-UIWebView Bridge - PhoneGap, trigger.io
-Custom JavaScriptCore - Appcelerator Titanium
-Gaming - Spaceport, ImpactJS, CocoonJS
+* UIWebView Bridge - PhoneGap, trigger.io
+* Custom JavaScriptCore - Appcelerator Titanium
+* Gaming - Spaceport, ImpactJS, CocoonJS
 
 
 ### Apple Documentation ###
@@ -61,12 +61,12 @@ They think that JavaScript is facing a performance wall:
 
 
 ### Read more ###
-http://www.whitneyland.com/2013/08/accelerated-hybrid-mobile-apps-the-sweet-spot.html
-https://www.cocoacontrols.com/posts/a-primer-on-hybrid-apps-for-ios
-http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
-http://de.slideshare.net/charlesying/best-practices-hybrid-mobile-native-web-apps
-http://blog.cuelogic.co.in/bridging-between-objective-c-and-javascript
-http://www.bitwit.ca/blog/an-native-ios-web-app-tutorialtemplate/
-http://sketchytech.blogspot.de/2012/04/uiwebview-javascript-and-objective-c.html
-http://blog.grio.com/2012/07/uiwebview-javascript-to-objective-c-communication.html
-http://warmfuzzyapps.com/2011/08/fun-with-uiwebview/
+* http://www.whitneyland.com/2013/08/accelerated-hybrid-mobile-apps-the-sweet-spot.html
+* https://www.cocoacontrols.com/posts/a-primer-on-hybrid-apps-for-ios
+* http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
+* http://de.slideshare.net/charlesying/best-practices-hybrid-mobile-native-web-apps
+* http://blog.cuelogic.co.in/bridging-between-objective-c-and-javascript
+* http://www.bitwit.ca/blog/an-native-ios-web-app-tutorialtemplate/
+* http://sketchytech.blogspot.de/2012/04/uiwebview-javascript-and-objective-c.html
+* http://blog.grio.com/2012/07/uiwebview-javascript-to-objective-c-communication.html
+* http://warmfuzzyapps.com/2011/08/fun-with-uiwebview/
