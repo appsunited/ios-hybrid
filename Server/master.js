@@ -1,4 +1,4 @@
-var NM = (function() {
+var NM = (function(w,n) {
 
     var self = this
       , news = '#news'
@@ -26,16 +26,16 @@ var NM = (function() {
             + '</p><a>www'
             + value.link.match(/\..*\.(de|com|net|org)/).toString().replace(/\,(de|com|net|org)/,'')
             + '</a></div></article>').appendTo(self.news);
-            NM.getUrl(i);
+            NM.getUrl(i); // das ist ein bißchen unsauber, Stichwort "Revealing Module Pattern"
         });
     };
 
     var getUrl = function(i) {
         $(self.news).on('click', '#'+i, function() {
-            if(navigator.userAgent.match(/iPhone/i)) {
-                window.location = 'objc://showUrl/' + urls[i];
+            if(n.userAgent.match(/iPhone/i)) {
+                w.location = 'objc://showUrl/' + urls[i];
             } else {
-                window.location = 'http://' + urls[i];
+                w.location = 'http://' + urls[i];
             }
         });
     };
@@ -45,7 +45,7 @@ var NM = (function() {
         getUrl: getUrl
     };
 
-})();
+})(window, navigator);
 
 var newspipes = 'http://pipes.yahoo.com/pipes/pipe.run?_id=3248c0b78ea8eb37e969bde1c91cf863&_render=json';
 $(document).ready(NM.init(newspipes));
